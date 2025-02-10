@@ -2,9 +2,12 @@
   "name": "weather",
   "version": "1.0.0",
   "description": "Simple weather script to try out the OpenWeatherMap API",
-  "main": "index.js",
+  "main": "./bin/index.js",
+  "type": "module",
+  "bin": {
+    "weather": "./bin/index.js"
+  },
   "scripts": {
-    "start": "node index.js",
     "test": "test"
   },
   "repository": {
