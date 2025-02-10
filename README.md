@@ -10,12 +10,16 @@ have one, sign up: [OpenWeatherMap API](https://openweathermap.org/api).
 ## Usage
 
 Run the following commands from the project directory:
-
 ```
 npm install
 ```
 
 To run:
 ```
-npx weather -c "Your City"
+npx weather -z "Your zipcode"
+```
+
+To see Version:
+```
+npx weather -v
 ```
