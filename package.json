@@ -1,0 +1,30 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "Simple weather script to try out the OpenWeatherMap API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cmbaughman/weather.git"
+  },
+  "keywords": [
+    "weather",
+    "javascript",
+    "cli",
+    "openweather"
+  ],
+  "author": "Christopher Baughman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmbaughman/weather/issues"
+  },
+  "homepage": "https://github.com/cmbaughman/weather#readme",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "dotenv": "^16.4.7"
+  }
+}
